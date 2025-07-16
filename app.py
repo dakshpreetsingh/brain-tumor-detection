@@ -1,6 +1,6 @@
 import os
 import platform
-UPLOAD_FOLDER = 'c:\\Users\\cchan\\Downloads\\210\\uploads\\'
+UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 if platform.system() != 'Windows':
